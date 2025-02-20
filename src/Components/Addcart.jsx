@@ -13,7 +13,7 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
 
   return (
     <div className="cart-container">
-      <h2>Shopping Cart</h2>
+      <h2>Your Cart</h2>
       {cart.length === 0 ? (
         <div className="empty-cart">
           <img src="https://png.pngtree.com/png-clipart/20190920/original/pngtree-shopping-cart-convenient-icon-png-image_4637407.jpg" alt="Empty Cart" className="empty-cart-image" />

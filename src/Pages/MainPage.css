@@ -3,17 +3,17 @@
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-  justify-content: space-around;
-  padding-left: 250px;
+  justify-content: space-between; /* Spread items across the container */
+  padding-left: 50px;  /* Adjust padding */
+  padding-right: 50px;  /* Adjust padding for symmetry */
 }
 
 .product-card {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   border-radius: 10px;
-  width: 450px; /* Adjusted width */
-  padding: 10px;
+  width: 30%; /* Set the product card width to 30% so 3 items fit in a row */
+  padding: 3px;
   text-align: left;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: 300px;
   display: flex;
   flex-direction: column; /* Ensure items stack vertically */
@@ -21,22 +21,13 @@
 }
 
 .product-image {
-  width: 450px; /* Make image width responsive */
+  width: 100%; /* Make image width responsive */
   height: 150px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
-.no-image {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ddd;
-  color: #333;
-  border-radius: 10px;
-}
+
 
 .product-name {
   font-size: 1.1em;
