@@ -1,0 +1,112 @@
+/* Addcart.css */
+
+/* Add some space around the cart content */
+.cart-container {
+  padding: 20px;
+  width: 1000px;
+  padding-left: 500px;
+}
+
+/* Empty cart section */
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;  /* Set a height for proper centering */
+}
+
+/* Style for the image when cart is empty */
+.empty-cart-image {
+  width: 100px;  /* Adjust the size of the cart image */
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+/* Cart item styles */
+.cart-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cart-item-price {
+  color: #333;
+}
+
+.remove-from-cart-btn {
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.remove-from-cart-btn:hover {
+  text-decoration: underline;
+}
+
+.cart-total {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.checkout-btn {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.checkout-btn:hover {
+  background-color: #218838;
+}
+
+.clear-cart-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.clear-cart-btn:hover {
+  background-color: #c82333;
+}

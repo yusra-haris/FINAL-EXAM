@@ -1,0 +1,84 @@
+/* Main.css */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-around;
+  padding-left: 250px;
+}
+
+.product-card {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  width: 450px; /* Adjusted width */
+  padding: 10px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  justify-content: space-between;
+}
+
+.product-image {
+  width: 450px; /* Make image width responsive */
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.no-image {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  color: #333;
+  border-radius: 10px;
+}
+
+.product-name {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px; /* Makes the button span the full width */
+  margin-right: 10px; /* Gives space between the button and the wishlist icon */
+}
+
+.add-to-cart-btn:hover {
+  background-color: #c91e12;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Space the button and wishlist icon */
+  align-items: center;
+  width: 100%; /* Ensure full width for button-container */
+  margin-top: 10px;
+}
+
+.wishlist-icon {
+  font-size: 20px;
+  color: rgb(175, 166, 166);
+  cursor: pointer;
+  margin-left: 10px; /* Adds spacing between button and heart icon */
+}
+
+.wishlist-icon:hover {
+  color: red; /* Change icon color on hover */
+}
